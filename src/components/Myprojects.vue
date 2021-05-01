@@ -6,35 +6,35 @@
                 <div class="slideshow-container">
                     <div class="hide card fade" @click="goToFacememo">
                         <div class="box">
-                            <img src="./../assets/facememo/1.png" class="facememo">
+                            <img :src="facememoImage" class="facememo">
                             <div class="text">FaceMemo</div>
                             <p>FaceMemo is a small game that has been created using javascript, HTML and Bootstrap only. This has been deployed on github pages.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @click="goToFriendtToDo">
+                    <div class="hide card fade" @mouseover="friendtodoImage=friendtodoImage2" @mouseout="friendtodoImage=friendtodoImage1" @click="goToFriendtToDo">
                         <div class="box">
-                            <img src="./../assets/friendtodo/1.png" class="friendtodo">
+                            <img :src="friendtodoImage">
                             <div class="text">FriendToDo</div>
                             <p>FriendToDo is a simple web application where you can list out your works to be done in the future. Node.js, EJS{Embaded Javascript Templating) Express and Jquery and Mongoose database has been used to develop this appilicaton. This has been deployed on Heroku.</p>
                         </div>
                     </div>
-                    <div class="hide card fade">
+                    <div class="hide card fade" @mouseover="careuImage=careuImage2" @mouseout="careuImage=careuImage1" @click="goToCareuRepo">
                         <div class="box">
-                            <img src="./../assets/careu/1.png" class="careu">
+                            <img :src="careuImage" class="careu">
                             <div class="text">CareU</div>
                             <p>CareU is a web application developed as a university project. The purpose of developing this application was to connect the people who are in the need of help of emergency services to those relevant services.  As well as, any framework has not been used for this application. HTML, CSS , JavaScript and Jquery were used for this application.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @click="goToSkyreads">
+                    <div class="hide card fade"  @mouseover="skyreadsImage=skyreadsImage2" @mouseout="skyreadsImage=skyreadsImage1" @click="goToSkyreads">
                         <div class="box">
-                            <img src="./../assets/skyreads/1.png" class="skyreads">
+                            <img :src="skyreadsImage">
                             <div class="text">Skyreads</div>
                             <p>Skyreads is web application where yu can check the wheather of any place in the world. In this application, you can search any palce and get the details like rain status, humadity, wind speed and etc. I have user Vue.js, Axios and Bootstrap for developing this application.This has been deployed on Bytehost.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @click="goToChitChat">
+                    <div class="hide card fade" @mouseover="chitchatImage=chitchatImage2" @mouseout="chitchatImage=chitchatImage1" @click="goToChitChat">
                         <div class="box">
-                            <img src="./../assets/chitchat/1.png" class="chitchat">
+                            <img :src="chitchatImage">
                             <div class="text">ChitChat</div>
                             <p>ChitChat is a very simple chat aplication that allows you to chat with someone. This was also developed with Vue.js and I have user Firebase realtime database and deployment has also been done on Firebase.</p>
                         </div>
@@ -60,7 +60,22 @@
         name:'Myprojects',
         data(){
             return{
-                slideIndex:1
+                slideIndex:1,
+                facememoImage:require('./../assets/facememo/1.png'),
+                facememoImage1:require('./../assets/facememo/1.png'),
+                facememoImage2:require('./../assets/facememo/2.png'),
+                friendtodoImage:require('./../assets/friendtodo/1.png'),
+                friendtodoImage1:require('./../assets/friendtodo/1.png'),
+                friendtodoImage2:require('./../assets/friendtodo/2.png'),
+                careuImage:require('./../assets/careu/1.png'),
+                careuImage1:require('./../assets/careu/1.png'),
+                careuImage2:require('./../assets/careu/2.png'),
+                skyreadsImage:require('./../assets/skyreads/1.png'),
+                skyreadsImage1:require('./../assets/skyreads/1.png'),
+                skyreadsImage2:require('./../assets/skyreads/2.png'),
+                chitchatImage:require('./../assets/chitchat/1.png'),
+                chitchatImage1:require('./../assets/chitchat/1.png'),
+                chitchatImage2:require('./../assets/chitchat/2.png'),
             }
         },
         mounted(){
@@ -100,6 +115,10 @@
                 window.open('https://friendtodo.herokuapp.com/', '_blank');
             },
 
+            goToCareuRepo(){
+                window.open('https://github.com/raveendrahewage/CAREU_WEB', '_blank');
+            },
+
             goToSkyreads(){
                 window.open('http://skyreads.byethost11.com/', '_blank');
             },
@@ -135,9 +154,8 @@ section{
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
-  margin: 0.3rem;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -154,7 +172,7 @@ section{
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: rgb(109, 109, 109);
+  color: white;
   font-weight: bold;
   font-size: 50px;
   transition: 0.6s ease;
@@ -272,6 +290,7 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover .box{
@@ -287,32 +306,11 @@ section{
     width: 100%;
     object-fit: cover;
     border: 5px solid rgb(231, 93, 0);
-    transition: all 0.9s ease;
+    transition: all 0.3s ease;
 }
 
 .projects .carousel .card .facememo:hover{
     content: url('./../assets/facememo/2.png');
-    transition: all 0.9s ease;
-}
-
-.projects .carousel .card .friendtodo:hover{
-    content: url('./../assets/friendtodo/2.png');
-    transition: all 0.9s ease;
-}
-
-.projects .carousel .card .careu:hover{
-    content: url('./../assets/careu/2.png');
-    transition: all 0.9s ease;
-}
-
-.projects .carousel .card .skyreads:hover{
-    content: url('./../assets/skyreads/2.png');
-    transition: all 0.9s ease;
-}
-
-.projects .carousel .card .chitchat:hover{
-    content: url('./../assets/chitchat/2.png');
-    transition: all 0.9s ease;
 }
 
 .projects .carousel .card:hover img{
