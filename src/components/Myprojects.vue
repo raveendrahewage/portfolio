@@ -18,11 +18,11 @@
                             <p>FriendToDo is a simple web application where you can list out your works to be done in the future. Node.js, EJS{Embaded Javascript Templating) Express and Jquery and Mongoose database has been used to develop this appilicaton. This has been deployed on Heroku.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @click="goToFacememo">
+                    <div class="hide card fade">
                         <div class="box">
                             <img src="./../assets/careu/1.png" class="careu">
                             <div class="text">CareU</div>
-                            <p>CareU is a web application developed as a university project. The purpose of developing this application was to connect the people who are in the need of help of emergency services to those relevant services.  As well as, any framework has not been used for this application. HTML, CSS , JavaScript and Jquery were used for this application</p>
+                            <p>CareU is a web application developed as a university project. The purpose of developing this application was to connect the people who are in the need of help of emergency services to those relevant services.  As well as, any framework has not been used for this application. HTML, CSS , JavaScript and Jquery were used for this application.</p>
                         </div>
                     </div>
                     <div class="hide card fade" @click="goToSkyreads">
