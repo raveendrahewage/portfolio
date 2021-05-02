@@ -44,7 +44,7 @@
                             <a href="https://www.linkedin.com/in/raveendra-hewage-8763921b9/" class="fa fa-linkedin" target="_blank"><span>linkedin</span></a>
                         </div>
                         <div class="field">
-                            <a href="https://www.facebook.com/ravindu.prashan.16/" class="fa fa-facebook" target="_blank"><span>facebook</span></a>
+                            <a href="https://www.facebook.com/raveendra.hewage/" class="fa fa-facebook" target="_blank"><span>facebook</span></a>
                         </div>
                         <div class="field">
                             <a href="https://twitter.com/HewageRaveendra" class="fa fa-twitter" target="_blank"><span>twitter</span></a>
