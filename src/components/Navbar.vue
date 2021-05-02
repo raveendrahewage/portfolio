@@ -144,10 +144,10 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(231, 93, 0);
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .menu-btn{
