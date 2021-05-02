@@ -6,95 +6,32 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>Since I am still a student, I don.t have much knowledge about many technologies and languages. But I am in the process of learning and getting more experiences.</p>
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                        </div>
-                        <div class="line php"></div>
+                    <div class="text">Languages Exposed</div>
+                    <div class="btn-group" style="width:100%">
+                        <button>PHP</button>
+                        <button>HTML</button>
+                        <button>Java</button>
+                        <button>JavaScript</button>
+                        <button>Python</button>
+                        <button>Scala</button>
+                        <button>R</button>
+                        <button>C</button>
+                        <button>C++</button>
                     </div>
                 </div>
                 <div class="column right">
-                    <!-- <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>30%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div> -->
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Vue.JS</span>
-                        </div>
-                        <div class="line vue"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C</span>
-                        </div>
-                        <div class="line c"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C++</span>
-                        </div>
-                        <div class="line cplusplus"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Java</span>
-                        </div>
-                        <div class="line java"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Pythons</span>
-                        </div>
-                        <div class="line python"></div>
+                    <div class="text">Technologies Exposed</div>
+                    <div class="btn-group" style="width:100%">
+                        <button>Codeigniter</button>
+                        <button>Bootsrap</button>
+                        <button>Jquery</button>
+                        <button>Node JS</button>
+                        <button>Express JS</button>
+                        <button>Android Studio</button>
+                        <button>Firebase</button>
+                        <button>MySQL</button>
+                        <button>Heroku</button>
+                        <button>Git</button>
                     </div>
                 </div>
             </div>
@@ -118,6 +55,34 @@
 
 section{
     padding: 50px 0;
+}
+
+.btn-group button {
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px 5px 0px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgb(231, 93, 0);
+    border: 1px solid rgb(231, 93, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group button:hover {
+    background-color: rgb(206, 82, 0);
 }
 
 .max-width{
@@ -177,7 +142,7 @@ section{
     width: calc(50% - 30px);
 }
 
-.skills .skills-content .left .text{
+.skills .skills-content .left .text, .skills .skills-content .right .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -203,105 +168,6 @@ section{
 .skills .skills-content .left a:hover{
     color: rgb(231, 93, 0);
     background: none;
-}
-
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-
-.skills .skills-content .left .bars{
-    margin-bottom: 15px;
-}
-
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.skills .skills-content .left .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.skills .skills-content .left span{
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-
-.skills .skills-content .left .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgb(231, 93, 0);
-}
-
-.skills .skills-content .left .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgb(231, 93, 0);
-}
-
-.skills-content .left .html::before{
-    width: 90%;
-}
-
-.skills-content .left .css::before{
-    width: 40%;
-}
-
-.skills-content .left .js::before{
-    width: 30%;
-}
-.skills-content .left .php::before{
-    width: 40%;
-}
-
-.skills-content .right .mysql::before{
-    width: 60%;
-}
-
-.skills-content .right .vue::before{
-    width: 30%;
-}
-.skills-content .right .c::before{
-    width: 50%;
-}
-.skills-content .right .cplusplus::before{
-    width: 40%;
-}
-.skills-content .right .java::before{
-    width: 35%;
-}
-.skills-content .right .python::before{
-    width: 20%;
 }
 
 @media (max-width: 947px){
