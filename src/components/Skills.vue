@@ -9,28 +9,24 @@
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
-                            <span>90%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>40%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>30%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>PHP</span>
-                            <span>40%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
@@ -67,42 +63,36 @@
                     <div class="bars">
                         <div class="info">
                             <span>MySQL</span>
-                            <span>60%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Vue.JS</span>
-                            <span>30%</span>
                         </div>
                         <div class="line vue"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>C</span>
-                            <span>50%</span>
                         </div>
                         <div class="line c"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>C++</span>
-                            <span>40%</span>
                         </div>
                         <div class="line cplusplus"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Java</span>
-                            <span>35%</span>
                         </div>
                         <div class="line java"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Pythons</span>
-                            <span>20%</span>
                         </div>
                         <div class="line python"></div>
                     </div>
