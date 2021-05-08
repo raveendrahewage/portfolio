@@ -39,6 +39,20 @@
                             <p>ChitChat is a very simple chat aplication that allows you to chat with someone. This was also developed with Vue.js and I have user Firebase realtime database and deployment has also been done on Firebase.</p>
                         </div>
                     </div>
+                    <div class="hide card fade" @mouseover="notesparkImage=notesparkImage2" @mouseout="notesparkImage=notesparkImage1" @click="goToNotesparkRepo">
+                        <div class="box">
+                            <img :src="notesparkImage">
+                            <div class="text">NotesPark</div>
+                            <p>NotesPark is a web application that facilitae the users to keep their notes and MEVN stack were used. This is also developed with Vue.js and vuetify plugin has been used. Mongodb databse has been used to store the user details and notes.</p>
+                        </div>
+                    </div>
+                    <div class="hide card fade" @mouseover="walkietalkieImage=walkietalkieImage2" @mouseout="walkietalkieImage=walkietalkieImage1" @click="goToWalkieTalkie">
+                        <div class="box">
+                            <img :src="walkietalkieImage">
+                            <div class="text">Walkie-Talkie</div>
+                            <p>Walkie-Talkie is another chat application developed with Vue.js and deployed on firebase. Firebase firestore has been used as the databes and this facilitase the user to create chat rooms and send voice messages.</p>
+                        </div>
+                    </div>
                     <a class="prev" @click="plusSlides(-1)">&#10094;</a>
                     <a class="next" @click="plusSlides(1)">&#10095;</a>
                     <div class="dots" style="text-align:center">
@@ -47,6 +61,8 @@
                         <span class="dot" @click="currentSlide(3)"></span>
                         <span class="dot" @click="currentSlide(4)"></span>
                         <span class="dot" @click="currentSlide(5)"></span>
+                        <span class="dot" @click="currentSlide(6)"></span>
+                        <span class="dot" @click="currentSlide(7)"></span>
                     </div>
                 </div>
             </div>
@@ -76,6 +92,12 @@
                 chitchatImage:require('./../assets/chitchat/1.png'),
                 chitchatImage1:require('./../assets/chitchat/1.png'),
                 chitchatImage2:require('./../assets/chitchat/2.png'),
+                notesparkImage:require('./../assets/notespark/1.png'),
+                notesparkImage1:require('./../assets/notespark/1.png'),
+                notesparkImage2:require('./../assets/notespark/2.png'),
+                walkietalkieImage:require('./../assets/walkietalkie/1.png'),
+                walkietalkieImage1:require('./../assets/walkietalkie/1.png'),
+                walkietalkieImage2:require('./../assets/walkietalkie/2.png'),
             }
         },
         mounted(){
@@ -125,6 +147,12 @@
 
             goToChitChat(){
                 window.open('https://chitchat-a63f5.web.app/', '_blank');
+            },
+            goToNotesparkRepo(){
+                window.open('https://github.com/raveendrahewage/notespark','_blank');
+            },
+            goToWalkieTalkie(){
+                window.open('https://walki-talkie-1729a.web.app/#/','_blank');
             }
         }
     }
