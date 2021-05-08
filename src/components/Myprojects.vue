@@ -4,18 +4,25 @@
             <h2 class="title">My Projects</h2>
             <div class="carousel">
                 <div class="slideshow-container">
-                    <div class="hide card fade" @click="goToFacememo">
+                    <div class="hide card fade" @mouseover="walkietalkieImage=walkietalkieImage2" @mouseout="walkietalkieImage=walkietalkieImage1" @click="goToWalkieTalkie">
                         <div class="box">
-                            <img :src="facememoImage" class="facememo">
-                            <div class="text">FaceMemo</div>
-                            <p>FaceMemo is a small game that has been created using javascript, HTML and Bootstrap only. This has been deployed on github pages.</p>
+                            <img :src="walkietalkieImage">
+                            <div class="text">Walkie-Talkie</div>
+                            <p>Walkie-Talkie is another chat application developed with Vue.js and deployed on firebase. Firebase firestore has been used as the databes and this facilitase the user to create chat rooms and send voice messages.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @mouseover="friendtodoImage=friendtodoImage2" @mouseout="friendtodoImage=friendtodoImage1" @click="goToFriendtToDo">
+                    <div class="hide card fade" @mouseover="notesparkImage=notesparkImage2" @mouseout="notesparkImage=notesparkImage1" @click="goToNotesparkRepo">
                         <div class="box">
-                            <img :src="friendtodoImage">
-                            <div class="text">FriendToDo</div>
-                            <p>FriendToDo is a simple web application where you can list out your works to be done in the future. Node.js, EJS{Embaded Javascript Templating) Express and Jquery and Mongoose database has been used to develop this appilicaton. This has been deployed on Heroku.</p>
+                            <img :src="notesparkImage">
+                            <div class="text">NotesPark</div>
+                            <p>NotesPark is a web application that facilitae the users to keep their notes and MEVN stack were used. This is also developed with Vue.js and vuetify plugin has been used. Mongodb databse has been used to store the user details and notes.</p>
+                        </div>
+                    </div>
+                    <div class="hide card fade" @mouseover="chitchatImage=chitchatImage2" @mouseout="chitchatImage=chitchatImage1" @click="goToChitChat">
+                        <div class="box">
+                            <img :src="chitchatImage">
+                            <div class="text">ChitChat</div>
+                            <p>ChitChat is a very simple chat aplication that allows you to chat with someone. This was also developed with Vue.js and I have user Firebase realtime database and deployment has also been done on Firebase.</p>
                         </div>
                     </div>
                     <div class="hide card fade" @mouseover="careuImage=careuImage2" @mouseout="careuImage=careuImage1" @click="goToCareuRepo">
@@ -32,25 +39,18 @@
                             <p>Skyreads is web application where yu can check the wheather of any place in the world. In this application, you can search any palce and get the details like rain status, humadity, wind speed and etc. I have user Vue.js, Axios and Bootstrap for developing this application.This has been deployed on Bytehost.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @mouseover="chitchatImage=chitchatImage2" @mouseout="chitchatImage=chitchatImage1" @click="goToChitChat">
+                    <div class="hide card fade" @mouseover="friendtodoImage=friendtodoImage2" @mouseout="friendtodoImage=friendtodoImage1" @click="goToFriendtToDo">
                         <div class="box">
-                            <img :src="chitchatImage">
-                            <div class="text">ChitChat</div>
-                            <p>ChitChat is a very simple chat aplication that allows you to chat with someone. This was also developed with Vue.js and I have user Firebase realtime database and deployment has also been done on Firebase.</p>
+                            <img :src="friendtodoImage">
+                            <div class="text">FriendToDo</div>
+                            <p>FriendToDo is a simple web application where you can list out your works to be done in the future. Node.js, EJS{Embaded Javascript Templating) Express and Jquery and Mongoose database has been used to develop this appilicaton. This has been deployed on Heroku.</p>
                         </div>
                     </div>
-                    <div class="hide card fade" @mouseover="notesparkImage=notesparkImage2" @mouseout="notesparkImage=notesparkImage1" @click="goToNotesparkRepo">
+                    <div class="hide card fade" @click="goToFacememo">
                         <div class="box">
-                            <img :src="notesparkImage">
-                            <div class="text">NotesPark</div>
-                            <p>NotesPark is a web application that facilitae the users to keep their notes and MEVN stack were used. This is also developed with Vue.js and vuetify plugin has been used. Mongodb databse has been used to store the user details and notes.</p>
-                        </div>
-                    </div>
-                    <div class="hide card fade" @mouseover="walkietalkieImage=walkietalkieImage2" @mouseout="walkietalkieImage=walkietalkieImage1" @click="goToWalkieTalkie">
-                        <div class="box">
-                            <img :src="walkietalkieImage">
-                            <div class="text">Walkie-Talkie</div>
-                            <p>Walkie-Talkie is another chat application developed with Vue.js and deployed on firebase. Firebase firestore has been used as the databes and this facilitase the user to create chat rooms and send voice messages.</p>
+                            <img :src="facememoImage" class="facememo">
+                            <div class="text">FaceMemo</div>
+                            <p>FaceMemo is a small game that has been created using javascript, HTML and Bootstrap only. This has been deployed on github pages.</p>
                         </div>
                     </div>
                     <a class="prev" @click="plusSlides(-1)">&#10094;</a>
