@@ -6,6 +6,7 @@
   <Skills/>
   <Contact/>
   <Footer/>
+  <Contactform/>
 </template>
 
 <script>
@@ -17,6 +18,7 @@ import Myprojects from './components/Myprojects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Contactform from './components/Contactform';
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     Myprojects,
     Skills,
     Contact,
-    Footer
+    Footer,
+    Contactform
   }
 }
 </script>
