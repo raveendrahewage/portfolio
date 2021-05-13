@@ -4,7 +4,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Raveendra Hewage</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-3">And I'm <span class="typing"></span></div>
             </div>
         </div>
     </section>
@@ -17,7 +17,7 @@ import Typed from 'typed.js';
         data(){
             return {
                 options : {
-                    strings: ["Developer", "Designer", "Undergraduate"],
+                    strings: ["a Developer", "a Designer", "an Undergraduate"],
                     typeSpeed: 40,
                     backSpeed:60,
                     loop:true
