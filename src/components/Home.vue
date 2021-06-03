@@ -17,7 +17,7 @@ import Typed from 'typed.js';
         data(){
             return {
                 options : {
-                    strings: ["a Developer", "a Designer", "an Undergraduate"],
+                    strings: ["a Developer", "a Programmar", "an Undergraduate"],
                     typeSpeed: 40,
                     backSpeed:60,
                     loop:true
