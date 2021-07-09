@@ -1,25 +1,24 @@
 <template>
-  <Navbar/>
-  <Home/>
-  <About/>
-  <Myprojects/>
-  <Skills/>
-  <Contact/>
-  <Footer/>
+  <Navbar />
+  <Home />
+  <About />
+  <Myprojects />
+  <Skills />
+  <Contact />
+  <Footer />
 </template>
 
 <script>
-
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Myprojects from './components/Myprojects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Myprojects from "./components/Myprojects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
     Home,
@@ -27,22 +26,22 @@ export default {
     Myprojects,
     Skills,
     Contact,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
-*{
+* {
   box-sizing: border-box;
   text-decoration: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-  margin:0;
+body {
+  margin: 0;
 }
 </style>
