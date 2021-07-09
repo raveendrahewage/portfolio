@@ -10,9 +10,11 @@
             technologies and languages. But I am in the process of learning and
             getting more experiences.
           </p>
-          <p>Currently work as a Web Developer</p>
+          <p>
+            Currently work as a Web Developer at
+            <b>promiseQ GmbH, Berlin, Germany</b>
+          </p>
           <img src="./../assets/promiseqlogo.png" alt="" sizes="" srcset="" />
-          <p>at <b>promiseQ GmbH, Berlin, Germany</b></p>
           <div class="text">Languages Exposed</div>
           <div class="btn-group" style="width:100%">
             <button>PHP</button>
