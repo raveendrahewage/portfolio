@@ -16,9 +16,9 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 footer {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   padding: 15px 23px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Poppins", sans-serif;
 }

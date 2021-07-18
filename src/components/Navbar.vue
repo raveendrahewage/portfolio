@@ -9,6 +9,9 @@
         <li><a href="#about" @click="menu" class="menu-btn">About</a></li>
         <li><a href="#skills" @click="menu" class="menu-btn">Skills</a></li>
         <li><a href="#projects" @click="menu" class="menu-btn">Projects</a></li>
+        <li>
+          <a href="#experience" @click="menu" class="menu-btn">Experience</a>
+        </li>
         <li><a href="#contact" @click="menu" class="menu-btn">Contact</a></li>
       </ul>
       <div class="menu-btn" @click="menu">

@@ -23,7 +23,7 @@
             gives me a lot of relaxation and refreshments to my day-to-day life.
             As well, I do video editing as one of my hobbies too.
           </p>
-          <!-- <a href="#">Download CV</a> -->
+          <a :href="cvLink" download="RaveendraHewage">Download CV</a>
         </div>
       </div>
     </div>
@@ -48,6 +48,7 @@ export default {
         backSpeed: 60,
         loop: true,
       },
+      cvLink: require("./../assets/CV/cv.png"),
     };
   },
   mounted() {

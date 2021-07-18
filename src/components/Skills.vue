@@ -10,11 +10,11 @@
             technologies and languages. But I am in the process of learning and
             getting more experiences.
           </p>
-          <p>
+          <!-- <p>
             Currently work as a Web Developer at
             <b>promiseQ GmbH, Berlin, Germany</b>
           </p>
-          <img src="./../assets/promiseqlogo.png" alt="" sizes="" srcset="" />
+          <img src="./../assets/promiseqlogo.png" alt="" sizes="" srcset="" /> -->
           <div class="text">Languages Exposed</div>
           <div class="btn-group" style="width:100%">
             <button>PHP</button>
@@ -100,6 +100,8 @@ section {
 }
 
 .skills {
+  background-color: black;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -127,7 +129,7 @@ section {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #111;
+  background: rgb(255, 255, 255);
   transform: translateX(-50%);
 }
 
@@ -138,7 +140,7 @@ section {
   font-size: 20px;
   color: rgb(231, 93, 0);
   padding: 0 5px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   transform: translateX(-50%);
 }
 
