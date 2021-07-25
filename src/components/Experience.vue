@@ -94,7 +94,7 @@ section {
   content: "where i was";
 }
 .experience .experience-content .left {
-  width: 45%;
+  width: 50%;
 }
 .experience .experience-content .left img {
   height: 400px;
@@ -103,7 +103,7 @@ section {
   border-radius: 6px;
 }
 .experience .experience-content .right {
-  width: 55%;
+  width: 50%;
 }
 .experience .experience-content .right .text {
   font-size: 25px;
