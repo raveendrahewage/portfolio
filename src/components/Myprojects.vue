@@ -16,7 +16,7 @@
               <p>
                 Walkie-Talkie is another chat application developed with Vue.js
                 and deployed on firebase. Firebase firestore has been used as
-                the databes and this facilitase the user to create chat rooms
+                the databes and this facilitates the user to create chat rooms
                 and send voice messages.
               </p>
             </div>
@@ -103,8 +103,8 @@
               <div class="text">FriendToDo</div>
               <p>
                 FriendToDo is a simple web application where you can list out
-                your works to be done in the future. Node.js, EJS{Embaded
-                Javascript Templating) Express and Jquery and Mongoose database
+                your works to be done in the future. Node.js, EJS(Embaded
+                Javascript Templating) Express and Jquery and MongoDB database
                 has been used to develop this appilicaton. This has been
                 deployed on Heroku.
               </p>
