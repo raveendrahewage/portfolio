@@ -110,7 +110,7 @@ export default {
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 30px 0;
+  padding: 28px 0;
   background-color: tranparent;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
@@ -141,7 +141,7 @@ export default {
 .navbar .menu li a {
   display: block;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;

@@ -199,11 +199,21 @@ section {
 }
 
 .contact .contact-content .info .head {
+  color: black;
   font-weight: 500;
+}
+
+.contact .contact-content .info .head:hover {
+  font-weight: 500;
+  color: rgb(231, 93, 0);
 }
 
 .contact .contact-content .info .sub-title {
   color: rgb(0, 0, 0);
+}
+
+.contact .contact-content .info .sub-title:hover {
+  color: rgb(231, 93, 0);
 }
 
 .contact .right .contact-form .fields {
@@ -238,6 +248,10 @@ section {
   margin-left: 1rem;
   color: rgb(0, 0, 0);
   font-size: 25px;
+}
+
+.contact .right .contact-form .field span:hover {
+  color: rgb(231, 93, 0);
 }
 
 .contact .right .contact-form .textarea {
