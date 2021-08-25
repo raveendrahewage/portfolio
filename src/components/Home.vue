@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       options: {
-        strings: ["a Developer", "a Programmar", "an Undergraduate"],
+        strings: ["a Developer.", "a Programmar.", "an Undergraduate."],
         typeSpeed: 40,
         backSpeed: 60,
         loop: true,
@@ -25,7 +25,7 @@ export default {
     };
   },
   mounted() {
-    var typed = new Typed(".typing", this.options);
+    new Typed(".typing", this.options);
   },
 };
 </script>
@@ -53,7 +53,6 @@ section {
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  background-image: url("./../assets/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

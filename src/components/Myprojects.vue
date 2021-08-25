@@ -334,7 +334,7 @@ section {
 
 .projects {
   color: #fff;
-  background: rgb(0, 0, 0);
+  background: black;
   font-family: "Poppins", sans-serif;
 }
 

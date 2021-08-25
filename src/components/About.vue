@@ -52,7 +52,7 @@ export default {
     };
   },
   mounted() {
-    var typed = new Typed(".typing-2", this.options);
+    new Typed(".typing-2", this.options);
   },
 };
 </script>
@@ -151,8 +151,8 @@ section {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(231, 93, 0);
-  color: #fff;
+  /* background: rgb(231, 93, 0); */
+  color: rgb(231, 93, 0);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
@@ -162,8 +162,8 @@ section {
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: rgb(231, 93, 0);
-  background: none;
+  color: #fff;
+  background: rgb(231, 93, 0);
 }
 
 @media (max-width: 1104px) {

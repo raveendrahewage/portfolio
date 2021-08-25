@@ -41,6 +41,9 @@
             <button>MySQL</button>
             <button>Heroku</button>
             <button>Git</button>
+            <button>Vue</button>
+            <button>React</button>
+            <button>React Native</button>
           </div>
         </div>
       </div>
@@ -74,8 +77,8 @@ section {
   margin: 5px 5px 5px 0px;
   font-size: 20px;
   border-radius: 25px;
-  background-color: rgb(231, 93, 0);
-  border: 1px solid rgb(231, 93, 0);
+  background-color: #222;
+  border: 1px solid #222;
   font-family: "Poppins", sans-serif;
 }
 

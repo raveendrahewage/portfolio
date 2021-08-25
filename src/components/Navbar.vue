@@ -80,16 +80,17 @@ export default {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: rgb(231, 93, 0);
+  background: tranparent;
   right: 30px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: #fff;
+  color: rgb(231, 93, 0);
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
-  border-bottom-width: 2px;
+  border: 1px solid rgb(231, 93, 0);
+  filter: brightness(70%);
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -101,7 +102,7 @@ export default {
   pointer-events: auto;
 }
 .scroll-up-btn:hover {
-  filter: brightness(90%);
+  filter: brightness(100%);
 }
 
 /* Navbar */
@@ -116,7 +117,7 @@ export default {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(231, 93, 0);
+  background: rgba(0, 0, 0, 0.5);
 }
 .navbar .max-width {
   display: flex;
@@ -132,9 +133,7 @@ export default {
   color: rgb(231, 93, 0);
   transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span {
-  color: rgb(0, 0, 0);
-}
+
 .navbar .menu li {
   list-style: none;
   display: inline-block;
@@ -149,9 +148,6 @@ export default {
 }
 .navbar .menu li a:hover {
   color: rgb(231, 93, 0);
-}
-.navbar.sticky .menu li a:hover {
-  color: rgb(0, 0, 0);
 }
 
 .menu-btn {

@@ -8,10 +8,12 @@
         </div>
         <div class="column right">
           <div class="text">
-            <b>promiseQ GmbH</b><br />Gc/o The Drivery GmbH<br />Mariendorfer Damm
-            1,<br />
-            12099 Berlin.<br />
-            (2021 - Present)
+            <h3>promiseQ GmbH</h3>
+            <br />
+            <p>Gc/o The Drivery GmbH,</p>
+            <p>Mariendorfer Damm 1,</p>
+            <p>12099 Berlin.</p>
+            <p>(2021 - Present)</p>
           </div>
         </div>
       </div>
@@ -106,8 +108,20 @@ section {
   width: 50%;
 }
 .experience .experience-content .right .text {
-  font-size: 25px;
   margin-bottom: 10px;
+}
+
+.experience .experience-content .right .text h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.experience .experience-content .right .text p {
+  font-size: 25px;
+  margin: 0;
+}
+.experience .experience-content .right .text :hover {
+  color: rgb(231, 93, 0);
 }
 .experience .experience-content .right .text span {
   color: rgb(231, 93, 0);

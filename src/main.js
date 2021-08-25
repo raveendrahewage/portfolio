@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import VueParticlesBg from "particles-bg-vue";
 
-createApp(App).mount('#app')
+Vue.config.productionTip = false;
+Vue.use(VueParticlesBg);
+
+new Vue({
+  render: h => h(App)
+}).$mount("#app");
