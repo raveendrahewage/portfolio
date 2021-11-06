@@ -8,12 +8,29 @@
         </div>
         <div class="column right">
           <div class="text">
+            <h3>Developer at</h3>
             <h3>promiseQ GmbH</h3>
             <br />
             <p>Gc/o The Drivery GmbH,</p>
             <p>Mariendorfer Damm 1,</p>
             <p>12099 Berlin.</p>
-            <p>(2021 - Present)</p>
+            <p>(2021 April - 2021 October)</p>
+          </div>
+        </div>
+      </div>
+      <div class="experience-content">
+        <div class="column left">
+          <img src="./../assets/pristine.jpg" alt="" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            <h3>Software Engineer-Intern at</h3>
+            <h3>Pristine Solutions Ptv. Ltd.</h3>
+            <br />
+            <p>No 166/3/1, Havelock Road,</p>
+            <p>Colombo 05,</p>
+            <p>Sri Lanka</p>
+            <p>(2021 April - 2021 October)</p>
           </div>
         </div>
       </div>
