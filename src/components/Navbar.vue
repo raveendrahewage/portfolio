@@ -7,7 +7,7 @@
       <ul class="menu" id="menu">
         <li><a href="#home" @click="menu" class="menu-btn">Home</a></li>
         <li><a href="#about" @click="menu" class="menu-btn">About</a></li>
-        <li><a href="#projects" @click="menu" class="menu-btn">Projects</a></li>
+        <!-- <li><a href="#projects" @click="menu" class="menu-btn">Projects</a></li> -->
         <li>
           <a href="#experience" @click="menu" class="menu-btn">Experience</a>
         </li>

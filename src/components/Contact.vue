@@ -118,8 +118,8 @@ section {
 
 .contact {
   font-family: "Poppins", sans-serif;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .contact .contact-content {
@@ -146,7 +146,7 @@ section {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   transform: translateX(-50%);
 }
 
@@ -157,7 +157,7 @@ section {
   font-size: 20px;
   color: rgb(231, 93, 0);
   padding: 0 5px;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   transform: translateX(-50%);
 }
 
@@ -199,7 +199,7 @@ section {
 }
 
 .contact .contact-content .info .head {
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 500;
 }
 
@@ -209,7 +209,7 @@ section {
 }
 
 .contact .contact-content .info .sub-title {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .contact .contact-content .info .sub-title:hover {
@@ -246,7 +246,7 @@ section {
 
 .contact .right .contact-form .field span {
   margin-left: 1rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 25px;
 }
 

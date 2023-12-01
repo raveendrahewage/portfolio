@@ -2,7 +2,8 @@
   <footer>
     <span
       >Created By <a href="#">Raveendra Hewage</a> |
-      <span class="far fa-copyright"></span> 2021 All rights reserved.</span
+      <span class="far fa-copyright"></span> {{ new Date().getFullYear() }} All
+      rights reserved.</span
     >
   </footer>
 </template>
@@ -16,9 +17,9 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 footer {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   padding: 15px 23px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Poppins", sans-serif;
 }

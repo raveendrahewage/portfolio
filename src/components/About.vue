@@ -4,7 +4,7 @@
       <h2 class="title">About me</h2>
       <div class="about-content">
         <div class="column left">
-          <img src="./../assets/my1.jpg" alt="" />
+          <img src="./../assets/mypic.jpg" alt="" />
         </div>
         <div class="column right">
           <div class="text">
@@ -12,16 +12,15 @@
           </div>
           <p>
             I am a very simple person who works hard for reaching to success and
-            has a passion for learning new things. Currently, I am a third-year
-            undergraduate at the University of Colombo School of Computing and
-            do the B.Sc in Computer Science degree there. WP/MT Yattapatha K.V
-            was my school up until my O/L and I did my A/L from Ananda
-            Sastralaya, Matugama. I am very interested in web development and
-            work on it by learning new technologies and brushing up my skills.
-            My ambition also to starts my career in that field. Most of the
-            time, I spend my free time listening to music and writing poems. It
-            gives me a lot of relaxation and refreshments to my day-to-day life.
-            As well, I do video editing as one of my hobbies too.
+            has a passion for learning new things. I am a graduate of University
+            of Colombo School of Computing and holds a B.Sc in Computer Science
+            degree. WP/MT Yattapatha K.V was my school up until my O/L and I did
+            my A/L from Ananda Sastralaya, Matugama. I am very interested in web
+            development and work on it by learning new technologies and brushing
+            up my skills. Most of the time, I spend my free time listening to
+            music and writing poems. It gives me a lot of relaxation and
+            refreshments to my day-to-day life. As well, I do video editing as
+            one of my hobbies too.
           </p>
           <a :href="cvLink" download="RaveendraHewage">Download CV</a>
         </div>
@@ -38,11 +37,11 @@ export default {
     return {
       options: {
         strings: [
-          "undergraduate.",
-          "simple person.",
-          "hard worker.",
-          "music lover.",
+          "graduate in BSc. in Computer Science.",
+          "tech enthusiast.",
           "fast learner.",
+          "smart worker.",
+          "simple person.",
         ],
         typeSpeed: 40,
         backSpeed: 60,

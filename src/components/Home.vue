@@ -2,9 +2,9 @@
   <section class="home" id="home">
     <div class="max-width">
       <div class="home-content">
-        <div class="text-1">Hello, my name is</div>
+        <div class="text-1">Hello, I'm</div>
         <div class="text-2">Raveendra Hewage</div>
-        <div class="text-3">And I'm <span class="typing"></span></div>
+        <div class="text-3">And I'm a <span class="typing"></span></div>
       </div>
     </div>
   </section>
@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       options: {
-        strings: ["a Developer.", "a Programmar.", "an Undergraduate."],
+        strings: ["Software Engineer.", "Tech Enthusiast.", "Problem Solver."],
         typeSpeed: 40,
         backSpeed: 60,
         loop: true,

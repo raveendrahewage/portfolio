@@ -3,7 +3,7 @@
     <Navbar />
     <Home />
     <About />
-    <Myprojects />
+    <!-- <Myprojects /> -->
     <Experience />
     <Skills />
     <Contact />
@@ -16,7 +16,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Myprojects from "./components/Myprojects";
+// import Myprojects from "./components/Myprojects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
@@ -29,7 +29,7 @@ export default {
     Navbar,
     Home,
     About,
-    Myprojects,
+    // Myprojects,
     Experience,
     Skills,
     Contact,

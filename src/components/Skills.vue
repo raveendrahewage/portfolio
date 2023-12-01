@@ -1,25 +1,13 @@
 <template>
   <section class="skills" id="skills">
     <div class="max-width">
-      <h2 class="title">My skills</h2>
+      <h2 class="title">Skills</h2>
       <div class="skills-content">
         <div class="column left">
-          <div class="text">My creative skills & experiences.</div>
-          <p>
-            Since I am still a student, I don't have much knowledge about many
-            technologies and languages. But I am in the process of learning and
-            getting more experiences.
-          </p>
-          <!-- <p>
-            Currently work as a Web Developer at
-            <b>promiseQ GmbH, Berlin, Germany</b>
-          </p>
-          <img src="./../assets/promiseqlogo.png" alt="" sizes="" srcset="" /> -->
           <div class="text">Languages Exposed</div>
           <div class="btn-group" style="width:100%">
             <button>PHP</button>
             <button>HTML</button>
-            <button>Java</button>
             <button>JavaScript</button>
             <button>Python</button>
             <button>Scala</button>
@@ -31,15 +19,12 @@
         <div class="column right">
           <div class="text">Technologies Exposed</div>
           <div class="btn-group" style="width:100%">
-            <button>Codeigniter</button>
             <button>Bootsrap</button>
             <button>Jquery</button>
             <button>Node JS</button>
-            <button>Express JS</button>
-            <button>Android Studio</button>
-            <button>Firebase</button>
+            <button>.NET</button>
             <button>MySQL</button>
-            <button>Heroku</button>
+            <button>Angular</button>
             <button>Git</button>
             <button>Vue</button>
             <button>React</button>
@@ -103,8 +88,6 @@ section {
 }
 
 .skills {
-  background-color: black;
-  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -132,7 +115,7 @@ section {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   transform: translateX(-50%);
 }
 
@@ -143,7 +126,7 @@ section {
   font-size: 20px;
   color: rgb(231, 93, 0);
   padding: 0 5px;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   transform: translateX(-50%);
 }
 

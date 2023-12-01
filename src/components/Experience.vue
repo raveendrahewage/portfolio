@@ -4,17 +4,33 @@
       <h2 class="title">Experience</h2>
       <div class="experience-content">
         <div class="column left">
-          <img src="./../assets/promiseq.png" alt="" />
+          <img src="./../assets/randomlogo.png" alt="" />
         </div>
         <div class="column right">
           <div class="text">
-            <h3>Developer at</h3>
-            <h3>promiseQ GmbH</h3>
+            <h3>Software Engineer at</h3>
+            <h3>Random Software Ltd.</h3>
             <br />
-            <p>Gc/o The Drivery GmbH,</p>
-            <p>Mariendorfer Damm 1,</p>
-            <p>12099 Berlin.</p>
-            <p>(2021 April - 2021 October)</p>
+            <p>201, Harbour House,</p>
+            <p>Trefechan, Aberystwyth SY23 1AS,</p>
+            <p>United Kingdom</p>
+            <p>(2023 October - Current)</p>
+          </div>
+        </div>
+      </div>
+      <div class="experience-content">
+        <div class="column left">
+          <img src="./../assets/rizinglogo.png" alt="" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            <h3>Associate Software Engineer at</h3>
+            <h3>Rizing LLC</h3>
+            <br />
+            <p>No. 19 Browns Capital Building,</p>
+            <p>19 Dudley Senanayake Mawatha,</p>
+            <p>Colombo 08</p>
+            <p>(2022 October - 2023 October)</p>
           </div>
         </div>
       </div>
@@ -30,6 +46,22 @@
             <p>No 166/3/1, Havelock Road,</p>
             <p>Colombo 05,</p>
             <p>Sri Lanka</p>
+            <p>(2021 April - 2021 October)</p>
+          </div>
+        </div>
+      </div>
+      <div class="experience-content">
+        <div class="column left">
+          <img src="./../assets/promiseq.png" alt="" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            <h3>Developer at</h3>
+            <h3>promiseQ GmbH</h3>
+            <br />
+            <p>Gc/o The Drivery GmbH,</p>
+            <p>Mariendorfer Damm 1,</p>
+            <p>12099 Berlin.</p>
             <p>(2021 April - 2021 October)</p>
           </div>
         </div>
@@ -67,6 +99,8 @@ section {
 }
 
 .experience {
+  background-color: black;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -87,7 +121,7 @@ section {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #111;
+  background: #ffffff;
   transform: translateX(-50%);
 }
 
@@ -98,7 +132,7 @@ section {
   font-size: 20px;
   color: rgb(231, 93, 0);
   padding: 0 5px;
-  background: #fff;
+  background: #000000;
   transform: translateX(-50%);
 }
 
