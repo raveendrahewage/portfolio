@@ -132,6 +132,7 @@ section {
 
 .skills .title::after {
   content: "what i know";
+  white-space: nowrap;
 }
 
 .skills .skills-content .column {
@@ -181,6 +182,9 @@ section {
 @media (max-width: 500px) {
   .skills .skills-content .left .text {
     font-size: 19px;
+  }
+  .about .title::after {
+    font-size: 20px;
   }
 }
 </style>

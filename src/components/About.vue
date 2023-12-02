@@ -37,7 +37,7 @@ export default {
     return {
       options: {
         strings: [
-          "graduate in BSc. in Computer Science.",
+          "graduate in BSc. in CS.",
           "tech enthusiast.",
           "fast learner.",
           "smart worker.",
@@ -124,6 +124,7 @@ section {
 
 .about .title::after {
   content: "who i am";
+  white-space: nowrap;
 }
 .about .about-content .left {
   width: 45%;
@@ -192,6 +193,9 @@ section {
 @media (max-width: 500px) {
   .about .about-content .right .text {
     font-size: 19px;
+  }
+  .about .title::after {
+    font-size: 20px;
   }
 }
 </style>

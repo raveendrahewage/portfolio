@@ -145,6 +145,7 @@ section {
 
 .experience .title::after {
   content: "where i was";
+  white-space: nowrap;
 }
 .experience .experience-content .left {
   width: 50%;
@@ -224,6 +225,9 @@ section {
 @media (max-width: 500px) {
   .experience .experience-content .right .text {
     font-size: 19px;
+  }
+  .about .title::after {
+    font-size: 20px;
   }
 }
 </style>

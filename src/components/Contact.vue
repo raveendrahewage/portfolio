@@ -37,7 +37,7 @@
               <i class="fas fa-phone"></i>
               <div class="info">
                 <div class="head">Phone</div>
-                <div class="sub-title">+94717188823</div>
+                <div class="sub-title">+94 71 71 888 23</div>
               </div>
             </div>
           </div>
@@ -163,6 +163,7 @@ section {
 
 .contact .title::after {
   content: "get in touch";
+  white-space: nowrap;
 }
 
 .contact .contact-content .column {
@@ -283,6 +284,9 @@ section {
   }
   .right .contact-form .error-box {
     width: 150px;
+  }
+  .about .title::after {
+    font-size: 20px;
   }
 }
 </style>
